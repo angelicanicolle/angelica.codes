@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--------------------------------
+      + Designer/Developer:
+            Angelica Nicolle Abalos
+            angelicanicolle.com
+    --------------------------------->
+  <!-- Metas -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Document Title -->
+  <title>@angelica.codes</title>
+  <!-- Links -->
+  <link href="https://fonts.googleapis.com/css?family=Barlow:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bulma.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Google Analytics -->
+</head>
+
+<!-- Body Content -->
+
+<body>
+  <!-- Header -->
+  <section class="hero is-medium is-black">
+    <!-- Hero head: will stick at the top -->
+    <div class="hero-head">
+      <!-- Navigation -->
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand navbar-start">
+          <a class="nav-item" id="logo" href="#">
+            <p>@angelica.codes</p>
+          </a>
+          <!-- Use any element to open/show the overlay navigation menu -->
+          <div>
+            <span class="navbar-burger" onclick="openNav()">&#9776;</span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+        <div class="nav-end navbar-menu" id="navMenu">
+          <a class="nav-item" href="#">
+              Info
+            </a>
+          <a class="nav-item" href="#work">
+              Work
+            </a>
+          <a class="nav-item" href="#contact">
+              Contact
+            </a>
+        </div>
+      </nav>
+      <!-- The overlay -->
+      <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay-content">
+          <a href="#">Info</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <!-- Hero content: will be in the middle -->
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <!-- About -->
+          <h1 class="titleis-size-3-mobile" style="font-size: 5.5rem; margin-bottom: 30px";>
+            🍕 📷 🍍 💻
+          </h1>
+          <h1 class="title is-size-1 is-size-3-mobile" style="margin-bottom: 50px";>
+            Hello, my name is Angelica Nicolle Abalos.
+          </h1>
+          <h2 class="subtitle is-size-3 is-size-6-mobile">
+            I'm a graphic designer dabbling in web development.<br />
+            I've been casually coding on and off since the MySpace days.<br />
+          </h2>
+          <p>
+            Also, I don't think pineapple belongs on pizza...<br /> Hope that's not a deal-breaker.
+          </p>
+        </div>
+      </div>
+  </section>
+
+  <!-- Portfolio Items -->
+  <section class="hero is-black" id="work">
+    <div class="hero-body">
+      <div class="container">
+        <div class="container">
+          <h1 class="title is-uppercase is-size-3 is-size-5-mobile">
+              Featured Work
+            </h1>
+          <div>
+            <!-- Row 1 -->
+            <div class="columns">
+              <!-- p1 - Left side -->
+              <div class="column is-half">
+                <p class="image">
+                  <img src="img/jb-fcc.png" alt="Julien Baker Tribute Page">
+                </p>
+                <h1 class="title is-size-3 is-size-5-mobile">
+                Julien Baker Tribute Page
+              </h1>
+                <p>
+                  A responsive home page highlighting musician Julien Baker's latest album "Turn Out the Lights".
+                </p>
+                <p id="view_project">
+                  View the project on:
+                </p>
+                <p>
+                  <a href="https://github.com/angelicanicolle/julien-baker-tribute-page" class="button is-white is-outlined" id="github_project_button">
+                  <span class="icon is-white">
+                    <i class="fa fa-github"></i>
+                  </span>
+                  <span>Github</span>
+                </a>
+                  <a href="https://codepen.io/angelicanicolle/pen/YELeep" class="button is-white is-outlined" id="codepen_project_button" ">
+                  <span class="icon is-white ">
+                    <i class="fa fa-codepen "></i>
+                  </span>
+                  <span>CodePen</span>
+                </a>
+              </p>
+              </div>
+              <!-- p2 - Right side -->
+              <div class="column is-half ">
+                <p class="image ">
+                  <img src="img/640x360.png " alt=" ">
+                </p>
+                <h1 class="title is-size-3 is-size-5-mobile">
+                  Project #2
+                </h1>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                    in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  </p>
+                  <p id="view_project ">
+                    View the project on:
+                  </p>
+                  <p>
+                    <a href="https://github.com/angelicanicolle " class="button is-white is-outlined " id="github_project_button ">
+                    <span class="icon is-white ">
+                      <i class="fa fa-github "></i>
+                    </span>
+                    <span>Github</span>
+                  </a>
+                    <a href="https://codepen.io/angelicanicolle/ " class="button is-white is-outlined " id="codepen_project_button " ">
+                  <span class="icon is-white ">
+                      <i class="fa fa-codepen "></i>
+                    </span>
+                  <span>CodePen</span>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Row 2 -->
+          <div class="columns ">
+            <!-- p3 - Right side -->
+            <div class="column is-half ">
+              <p class="image ">
+                <img src="img/640x360.png " alt=" ">
+              </p>
+              <h1 class="title is-size-3 is-size-5-mobile">
+                Project #3
+              </h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              </p>
+              <p id="view_project">
+                View the project on:
+              </p>
+              <p>
+                <a href="https://github.com/angelicanicolle" class="button is-white is-outlined" id="github_project_button">
+                  <span class="icon is-white">
+                    <i class="fa fa-github"></i>
+                  </span>
+                  <span>Github</span>
+                </a>
+                <a href="https://codepen.io/angelicanicolle/" class="button is-white is-outlined" id="codepen_project_button" ">
+                  <span class="icon is-white ">
+                    <i class="fa fa-codepen "></i>
+                  </span>
+                  <span>CodePen</span>
+                </a>
+              </p>
+            </div>
+              <!-- p4 - Right side -->
+              <div class="column is-half ">
+                <p class="image ">
+                  <img src="img/640x360.png " alt=" ">
+                </p>
+                <h1 class="title is-size-3 is-size-5-mobile">
+                Project #4
+              </h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                  in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+                <p id="view_project ">
+                  View the project on:
+                </p>
+                <p>
+                  <a href="https://github.com/angelicanicolle " class="button is-white is-outlined " id="github_project_button ">
+                  <span class="icon is-white ">
+                    <i class="fa fa-github "></i>
+                  </span>
+                  <span>Github</span>
+                </a>
+                  <a href="https://codepen.io/angelicanicolle/ " class="button is-white is-outlined " id="codepen_project_button " ">
+                <span class="icon is-white ">
+                    <i class="fa fa-codepen "></i>
+                  </span>
+                <span>CodePen</span>
+                </a>
+              </p>
+            </div>
+          </div>
+          <!-- End Projects -->
+        </div>
+      </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="hero is-medium is-black" id="contact">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title is-size-1 is-size-3-mobile">
+              I'm currently available for work.
+            </h1>
+        <h2 class="subtitle is-size-3 is-size-6-mobile" id="connect">
+              Let's connect!<br>
+              Say "hello" or follow me on social media.
+            </h2>
+        <p>
+          <!-- Email -->
+          <a href="mailto:hello@angelica.codes/?Subject=Hello%21&amp;Body=I%20was%20looking%20at%20your%20site%20and%20wanted%20to%20say%20hello!" target="_blank" class="button is-white is-outlined is-size-4 is-size-6-mobile" id="social_icon">
+                <span class="icon is-white is-size-3 is-size-6-mobile">
+                  <i class="fa fa-envelope"></i>
+                </span>
+              </a>
+          <!-- Twitter -->
+          <a href="https://twitter.com/angelicanicolle" target="_blank" class="button is-white is-outlined is-size-4 is-size-6-mobile" id="social_icon">
+                <span class="icon is-white is-size-3 is-size-6-mobile">
+                  <i class="fa fa-twitter"></i>
+                </span>
+              </a>
+          <!-- Instagram -->
+          <a href="https://instagram.com/angelica.codes" target="_blank" class="button is-white is-outlined is-size-4 is-size-6-mobile" id="social_icon">
+                <span class="icon is-white is-size-3 is-size-6-mobile">
+                  <i class="fa fa-instagram"></i>
+                </span>
+              </a>
+          <!-- Dribbble -->
+          <a href="https://dribbble.com/angelicanicolle" target="_blank" class="button is-white is-outlined is-size-4 is-size-6-mobile" id="social_icon">
+                <span class="icon is-white is-size-3 is-size-6-mobile">
+                  <i class="fa fa-dribbble"></i>
+                </span>
+              </a>
+          <!-- Behance -->
+          <a href="https://behance.net/angelicanicolle" target="_blank" class="button is-white is-outlined is-size-4 is-size-6-mobile" id="social_icon">
+                <span class="icon is-white is-size-3 is-size-6-mobile">
+                  <i class="fa fa-behance"></i>
+                </span>
+              </a>
+          <!-- LinkedIn -->
+          <a href="https://linkedin.com/in/angelicanicolle" class="button is-white is-outlined is-size-4 is-size-6-mobile" id="social_icon">
+                <span class="icon is-white is-size-3 is-size-6-mobile">
+                  <i class="fa fa-linkedin"></i>
+                </span>
+              </a>
+          <h1 class="title is-size-1 is-size-3-mobile" id="peace">
+                ✌️
+              </h1>
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="hero is-small is-black" id="contact">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <a href="http://angelicanicolle.com">&COPY; 2017 Angelica Nicolle Abalos</a>
+      </div>
+    </div>
+  </section>
+  <script type="text/javascript" src="nav.js"></script>
+</body>
+
+</html>
