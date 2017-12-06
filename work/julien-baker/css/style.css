@@ -1,0 +1,249 @@
+html, body {
+    height: 100%;
+    font-size: 100%;
+}
+
+html {
+  box-sizing: border-box;
+  color: #fff;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+/* DEFAULT (Desktop) ----------- */
+#left-field {
+  padding: 20px 0 0 20px;
+}
+
+h1 {
+  font-family: "Lora-Bold";
+  font-size: 5rem;
+  color: #fff;
+}
+
+h2 {
+  margin-top: -1rem;
+  font-family: "Lato-Light";
+  font-size: 2rem;
+  color: #fff;
+}
+
+h1 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h1 a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #D3D3D3;
+  text-decoration: none;
+}
+
+.blockquote {
+  font-family: Lora;
+  font-size: 1rem;
+  color: #fff;
+  text-align:left;
+}
+
+.blockquote-footer {
+  margin-top: 10px;
+  font-family: Lato;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.blockquote-footer a {
+  font-family: Lora;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.blockquote-footer a:hover {
+  color: #D3D3D3;
+}
+
+#bottom-left-field {
+  padding: 20px 0 0 20px;
+  max-width: 40%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.top-right {
+  padding: 20px 20px 0 0;
+  max-width: 40%;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.bottom-right {
+  padding: 20px 20px 0 0;
+  max-width: 40%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 20px;
+}
+
+  .bottom-right a {
+  	font-family: Lato;
+  	font-size: 1.25rem;
+  	color: #fff;
+  }
+
+  .btn-primary {
+  	background-color: #fff;
+  	border-color: #fff;
+  }
+
+  .btn-primary a {
+  	color: #202020;
+  }
+
+  .btn-primary:hover,
+  .btn-primary:focus,
+  .btn-primary:active,
+  .btn-primary.active {
+  	background-color: #D3D3D3;
+  	border-color: #D3D3D3;
+  }
+
+  .fa {
+  		color: #fff;
+      padding: 20px;
+      font-size: 2rem;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+  }
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width : 600px) {
+/* Styles */
+
+  h1 {
+    font-size: 3em;
+  }
+
+  h2 {
+    margin-top: -.5em;
+    font-size: 1.25em;
+  }
+
+
+  .blockquote {
+    font-size: .9em;
+  }
+
+  .blockquote-footer {
+    margin-top: .5em;
+    font-size: .85em;
+  }
+
+  .blockquote-footer a {
+    font-size: 1em;
+  }
+
+  #bottom-left-field {
+    max-width: 97%;
+  }
+
+  .top-right {
+    padding: 0 .5em 0 .75em;
+    position: relative;
+  }
+
+  .bottom-right {
+    padding: 0 0 0 1em;
+    position: relative;
+    margin-bottom: 1em;
+  }
+
+  .bottom-right a {
+    font-size: .9em;
+  }
+
+  .fa {
+      padding: .25em;
+      font-size: 1.5em;
+      width: 1em;
+  }
+}
+
+
+/* Mobile to Tablet (portrait and landscape) ----------- */
+@media only screen and (min-width : 480px) and (max-width : 800px) {
+  /* Styles */
+
+  h1 {
+    font-size: 4rem;
+  	max-width: 60%;
+  }
+
+  h2 {
+    margin-top: -.5rem;
+    font-size: 1.5rem;
+  	max-width: 60%;
+  }
+
+  .blockquote {
+    font-size: 1rem;
+  }
+
+  .blockquote-footer {
+    margin-top: .5rem;
+    font-size: .85rem;
+  }
+
+  .blockquote-footer a {
+    font-size: .85rem;
+  }
+
+  #bottom-left-field {
+    max-width: 60%;
+  }
+
+  .top-right {
+    padding: 1rem 1rem 0 0;
+  }
+
+  .bottom-right {
+    padding: 0 1rem 0 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .bottom-right a {
+    font-size: 1rem;
+  }
+
+  .fa {
+      padding: 1rem;
+      font-size: 1.5rem;
+      width: 2rem;
+  }
+}
+
+/* Background Image (Same on all Devices)----------- */
+.bg {
+    /* The image used */
+    background-image: url("../img/jb.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
