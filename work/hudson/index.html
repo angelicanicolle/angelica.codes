@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--------------------------------
+      + Designer/Developer:
+            Angelica Nicolle Abalos
+            angelicanicolle.com
+    --------------------------------->
+  <!-- Metas -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Document Title -->
+  <title>Johnny Hudson | Music &amp; Lifestyle Photographer</title>
+  <!-- Links -->
+  <link href="https://fonts.googleapis.com/css?family=Open-Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/bulma.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Google Analytics -->
+</head>
+
+<!-- Body Content -->
+
+<body>
+  <!-- Header -->
+  <section class="hero is-fullheight has-bg-img">
+    <!-- Hero head: will stick at the top -->
+
+    <div class="hero-head">
+      <!-- Navigation -->
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand navbar-start">
+          <a class="nav-item" id="logo" href="#">
+            <p>JH</p>
+          </a>
+          <!-- Use any element to open/show the overlay navigation menu -->
+          <div>
+            <span class="navbar-burger" onclick="openNav()">&#9776;</span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+
+        <div class="nav-end navbar-menu" id="navMenu">
+          <a class="nav-item" href="#">
+              Info
+            </a>
+          <a class="nav-item" href="#about">
+              About
+            </a>
+            <a class="nav-item" href="#work">
+                Work
+            </a>
+        </div>
+      </nav>
+      <!-- The overlay -->
+      <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay-content">
+          <a href="#">Info</a>
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+        </div>
+      </div>
+
+      <!-- Hero content: will be in the middle -->
+      <div class="hero-body">
+        <div class="container has-text-centered" id="intro">
+          <!-- About -->
+          <h1 class="title is-size-1 is-size-3-mobile" ;>
+            Johnny Hudson
+          </h1>
+          <h2 class="subtitle is-size-4 is-size-6-mobile">
+            Music &amp; Lifestyle Photographer
+        </div>
+      </div>
+  </section>
+
+  <!-- About -->
+  <section class="hero is-medium" id="about">
+    <div class="hero-body">
+      <div class="columns">
+        <div class="column has-text-centered">
+          <h1 class="title has-text-whis-size-1 is-size-3-mobile">
+                Who is Johnny?
+              </h1>
+          <h2 class="subtitle is-white is-size-4 is-size-6-mobile">
+                Johnny Hudson is a freelance music &amp; lifestyle photographer.<br/>
+                Feel free to say "hello" or follow him on social media.
+              </h2>
+          <p>
+            <!-- Email -->
+            <a href="mailto:hello@angelica.codes/?Subject=Hello%21&amp;Body=I%20was%20looking%20at%20your%20site%20and%20wanted%20to%20say%20hello!" target="_blank" class="button is-white is-outlined is-size-4 is-size-6-mobile" id="social_icon">
+                  <span class="icon is-size-3 is-size-6-mobile">
+                    <i class="fa fa-envelope"></i>
+                  </span>
+                </a>
+            <!-- Twitter -->
+            <a href="https://twitter.com/angelicanicolle" target="_blank" class="button is-white is-outlined is-size-4 is-size-6-mobile" id="social_icon">
+                  <span class="icon is-size-3 is-size-6-mobile">
+                    <i class="fa fa-twitter"></i>
+                  </span>
+                </a>
+            <!-- Instagram -->
+            <a href="https://instagram.com/angelica.codes" target="_blank" class="button is-white is-outlined is-size-4 is-size-6-mobile" id="social_icon">
+                  <span class="icon is-size-3 is-size-6-mobile">
+                    <i class="fa fa-instagram"></i>
+                  </span>
+                </a>
+            <!-- Dribbble -->
+            <a href="https://dribbble.com/angelicanicolle" target="_blank" class="button is-white is-outlined is-size-4 is-size-6-mobile" id="social_icon">
+                  <span class="icon is-size-3 is-size-6-mobile">
+                    <i class="fa fa-dribbble"></i>
+                  </span>
+                </a>
+          </p>
+        </div>
+        <div class="column is-half has-text-centered" id="about">
+          <img src="img/portrait.jpeg" alt="" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Showcase -->
+  <section class="hero is-small is-black has-bg-img-2" id="work">
+    <div class="hero-body">
+          <h1 class="title is-uppercase has-text-centered is-size-3 is-size-5-mobile">
+              Featured Work
+            </h1>
+          <div>
+            <!-- Row 1 -->
+            <div class="columns">
+              <!-- #1 -->
+              <figure class="overlay-container">
+                <img src="img/dashboard.jpg" alt="Dashboard Confessional" class="image overlay-image">
+                <div class="overlay-effect">
+                  <div class="text"></div>
+                </div>
+              </figure>
+              <!-- #2 -->
+              <figure class="is-one-third overlay-container">
+                <img src="img/cte.jpg" alt="Crown the Empire" class="image overlay-image">
+                <div class="overlay-effect">
+                  <div class="text"></div>
+                </div>
+              </figure>
+            <!-- #3 -->
+            <figure class="is-one-third overlay-container">
+              <img src="img/saosin.jpg" alt="SAOSIN" class="image overlay-image">
+              <div class="overlay-effect">
+                <div class="text"></div>
+              </div>
+            </figure>
+            </div>
+          </div>
+          <!-- Row 2 -->
+          <div class="columns">
+            <!-- #1 -->
+            <figure class="is-one-third overlay-container">
+              <img src="img/lloyd.jpg" alt="Lloyd" class="image overlay-image">
+              <div class="overlay-effect">
+                <div class="text"></div>
+              </div>
+            </figure>
+            <!-- #2 -->
+            <figure class="is-one-third overlay-container">
+              <img src="img/uo.jpg" alt="UNDERØATH" class="image overlay-image">
+              <div class="overlay-effect">
+                <div class="text"></div>
+              </div>
+            </figure>
+          <!-- #3 -->
+          <figure class="is-one-third overlay-container">
+            <img src="img/switchfoot.jpg" alt="Switchfoot" class="image overlay-image">
+            <div class="overlay-effect">
+              <div class="text"></div>
+            </div>
+          </figure>
+  </section>
+
+<!-- Footer -->
+  <section class="hero is-small is-black has-bg-img" id="contact">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        &COPY; 2017 | Designed &amp; developed by<a href="http://angelica.codes"> Angelica Nicolle Abalos</a>
+      </div>
+    </div>
+  </section>
+  <script type="text/javascript" src="js/nav.js"></script>
+</body>
+
+</html>
